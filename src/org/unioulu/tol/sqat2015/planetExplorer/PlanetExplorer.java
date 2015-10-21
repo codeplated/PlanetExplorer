@@ -24,7 +24,7 @@ public class PlanetExplorer {
 			
 			if(obstacles.charAt(sizeOfString)==')'){
 				//System.out.println(obstacles.charAt(sizeOfString-3) + "," + obstacles.charAt(sizeOfString-1));
-				grid[obstacles.charAt(sizeOfString-2)][obstacles.charAt(sizeOfString)]=2;
+				grid[obstacles.charAt(sizeOfString-4)][obstacles.charAt(sizeOfString-2)]=2;
 			}
 		}
 		
