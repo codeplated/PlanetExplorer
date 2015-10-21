@@ -23,8 +23,8 @@ public class PlanetExplorer {
 		for(int sizeOfString=0; sizeOfString<=obstacles.length(); sizeOfString++){
 			
 			if(obstacles.charAt(sizeOfString)==')'){
-				//System.out.println(obstacles.charAt(sizeOfString-3) + "," + obstacles.charAt(sizeOfString-1));
-				grid[5][7]=2;
+				System.out.println(obstacles.charAt(sizeOfString-3) + "," + obstacles.charAt(sizeOfString-1));
+				//grid[5][7]=2;
 			}
 		}
 		
