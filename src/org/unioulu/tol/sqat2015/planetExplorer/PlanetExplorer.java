@@ -23,16 +23,11 @@ public class PlanetExplorer {
 		
 		obstacles = obstacles.replaceAll("\\D+","");
 		System.out.println(obstacles);
-//		for(int sizeOfString=0; sizeOfString<=obstacles.length(); sizeOfString++){
-//			
-//			if(obstacles.charAt(sizeOfString)>='0' && obstacles.charAt(sizeOfString)>='9'){
-//				System.out.println(obstacles.charAt(sizeOfString) + obstacles.charAt(sizeOfString+2));
-//				sizeOfString=sizeOfString+3;
-//				//System.out.println(grid[5][5] +")("+ grid[7][8]);
-//				//grid[obstacles.charAt(sizeOfString-3)][obstacles.charAt(sizeOfString-1)]=2;
-//			
-//			}
-//		}
+		for(int sizeOfString=0; sizeOfString<=obstacles.length(); sizeOfString++){
+			
+			grid[obstacles.charAt(sizeOfString)][obstacles.charAt(sizeOfString)+1]=2;
+			sizeOfString++;
+		}
 		
 		
 			
