@@ -22,11 +22,12 @@ public class PlanetExplorer {
 		}
 		
 		obstacles = obstacles.replaceAll("\\D+","");
-		System.out.println(obstacles.charAt(2));
+		
 		for(int sizeOfString=0; sizeOfString<obstacles.length(); sizeOfString++){
 			int xx=obstacles.charAt(sizeOfString);
 			int yy=obstacles.charAt(sizeOfString+1);
 			grid[xx][yy]=2;
+			System.out.println(grid[xx][yy]+"  ,  "+ xx +"  ,  "+yy );
 			sizeOfString++;
 		}
 		
