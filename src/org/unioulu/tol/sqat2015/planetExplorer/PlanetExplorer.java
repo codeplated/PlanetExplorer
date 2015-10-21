@@ -2,7 +2,7 @@ package org.unioulu.tol.sqat2015.planetExplorer;
 
 // Before submitting write your ID and finish time here. Your ID is written on project description sheets.
 // ID:2483104
-// Finish time: 4.35
+// Finish time: 4.35PM
 public class PlanetExplorer {
 	int[][] grid;
 	int x;
