@@ -20,7 +20,7 @@ public class PlanetExplorer {
 				grid[i][j]=0;	
 			}
 		}
-		System.out.println(grid[5][5] + grid[7][8]);
+		System.out.println(grid[5][5] + grid[7][8] + x+y);
 		
 		for(int sizeOfString=0; sizeOfString<=obstacles.length(); sizeOfString++){
 			
