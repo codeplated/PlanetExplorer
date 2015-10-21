@@ -25,7 +25,7 @@ public class PlanetExplorer {
 		for(int sizeOfString=0; sizeOfString<=obstacles.length(); sizeOfString++){
 			
 			if(obstacles.charAt(sizeOfString)==')'){
-				System.out.println(obstacles.charAt(sizeOfString-3) + obstacles.charAt(sizeOfString-1));
+				System.out.println(obstacles.charAt(sizeOfString-3) +"aa"+ obstacles.charAt(sizeOfString-1));
 				//System.out.println(grid[5][5] +")("+ grid[7][8]);
 				//grid[obstacles.charAt(sizeOfString-3)][obstacles.charAt(sizeOfString-1)]=2;
 			
