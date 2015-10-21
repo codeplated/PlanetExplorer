@@ -22,7 +22,7 @@ public class PlanetExplorer {
 		}
 		
 		obstacles = obstacles.replaceAll("\\D+","");
-		gri
+		grid=setObstaclesIngrid(obstacles);
 		
 		
 			
@@ -34,7 +34,7 @@ public class PlanetExplorer {
 	 */
 	}
 	
-	private int[][] setObstacles(){
+	private void setObstaclesIngrid(String obstacles){
 	
 		for(int sizeOfString=0; sizeOfString<obstacles.length(); sizeOfString++){
 			int xx=obstacles.charAt(sizeOfString);

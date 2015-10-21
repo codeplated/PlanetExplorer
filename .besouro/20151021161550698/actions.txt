@@ -40,3 +40,31 @@ CompilationAction 1445434067575 PlanetExplorer.java
 RefactoringAction 1445434156957 PlanetExplorer.java ADD int FIELD
 RefactoringAction 1445434158983 PlanetExplorer.java RENAME setObstacles=>int METHOD
 EditAction 1445434190106 PlanetExplorer.java 2583 12 11 0
+CompilationAction 1445434190365 PlanetExplorer.java
+CompilationAction 1445434190366 PlanetExplorer.java
+CompilationAction 1445434190366 PlanetExplorer.java
+CompilationAction 1445434190366 PlanetExplorer.java
+CompilationAction 1445434192014 PlanetExplorer.java
+CompilationAction 1445434192147 PlanetExplorer.java
+CompilationAction 1445434192148 PlanetExplorer.java
+CompilationAction 1445434192148 PlanetExplorer.java
+CompilationAction 1445434209129 PlanetExplorer.java
+CompilationAction 1445434209292 PlanetExplorer.java
+CompilationAction 1445434209292 PlanetExplorer.java
+RefactoringAction 1445434217366 PlanetExplorer.java RENAME setObstacles()=>int METHOD
+CompilationAction 1445434223550 PlanetExplorer.java
+CompilationAction 1445434223719 PlanetExplorer.java
+CompilationAction 1445434223719 PlanetExplorer.java
+CompilationAction 1445434226688 PlanetExplorer.java
+CompilationAction 1445434226856 PlanetExplorer.java
+CompilationAction 1445434226857 PlanetExplorer.java
+CompilationAction 1445434239699 PlanetExplorer.java
+CompilationAction 1445434239700 PlanetExplorer.java
+CompilationAction 1445434239867 PlanetExplorer.java
+CompilationAction 1445434239867 PlanetExplorer.java
+RefactoringAction 1445434270064 PlanetExplorer.java RENAME setObstacles(String)/2=>void setObstaclesIngrid(String) METHOD
+CompilationAction 1445434271303 PlanetExplorer.java
+CompilationAction 1445434271502 PlanetExplorer.java
+CompilationAction 1445434276066 PlanetExplorer.java
+CompilationAction 1445434276231 PlanetExplorer.java
+EditAction 1445434284900 PlanetExplorer.java 2634 12 18 0
