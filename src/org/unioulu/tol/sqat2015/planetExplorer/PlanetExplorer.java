@@ -13,7 +13,7 @@ public class PlanetExplorer {
 		this.x=x;
 		this.y=y;
 		this.obstacles=obstacles;
-		grid=new int[10][10];
+		grid=new int[x][y];
 		
 		for(int i=0; i<10;i++){
 			for(int j=0; j<10;j++){
@@ -22,7 +22,7 @@ public class PlanetExplorer {
 		}
 		
 		obstacles = obstacles.replaceAll("\\D+","");
-		grid=setObstaclesIngrid(obstacles);
+		setObstaclesIngrid(obstacles);
 		
 		
 			
