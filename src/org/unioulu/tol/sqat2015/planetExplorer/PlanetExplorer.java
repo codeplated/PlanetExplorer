@@ -24,8 +24,9 @@ public class PlanetExplorer {
 		obstacles = obstacles.replaceAll("\\D+","");
 		System.out.println(obstacles.charAt(2));
 		for(int sizeOfString=0; sizeOfString<obstacles.length(); sizeOfString++){
-			
-			grid[obstacles.charAt(sizeOfString)][obstacles.charAt(sizeOfString)+1]=2;
+			int xx=obstacles.charAt(sizeOfString);
+			int yy=obstacles.charAt(sizeOfString+1);
+			grid[xx][yy]=2;
 			sizeOfString++;
 		}
 		
