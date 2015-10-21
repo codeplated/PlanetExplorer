@@ -13,7 +13,7 @@ public class PlanetExplorer {
 		this.x=x;
 		this.y=y;
 		this.obstacles=obstacles;
-		grid=new int[x][y];
+		grid=new int[10][10];
 		
 		for(int i=0; i<x;i++){
 			for(int j=0; j<y;j++){
