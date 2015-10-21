@@ -22,7 +22,7 @@ public class PlanetExplorer {
 		}
 		
 		obstacles = obstacles.replaceAll("\\D+","");
-		System.out.println(obstacles);
+		System.out.println(obstacles.length());
 		for(int sizeOfString=0; sizeOfString<=obstacles.length(); sizeOfString++){
 			
 			grid[obstacles.charAt(sizeOfString)][obstacles.charAt(sizeOfString)+1]=2;
