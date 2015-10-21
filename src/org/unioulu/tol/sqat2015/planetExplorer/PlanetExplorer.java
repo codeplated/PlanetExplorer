@@ -13,10 +13,10 @@ public class PlanetExplorer {
 		this.x=x;
 		this.y=y;
 		this.obstacles=obstacles;
-		grid=new int[10][10];
+		grid=new int[x][y];
 		
-		for(int i=0; i<10;i++){
-			for(int j=0; j<10;j++){
+		for(int i=0; i<x;i++){
+			for(int j=0; j<y;j++){
 				grid[i][j]=0;	
 			}
 		}
@@ -24,8 +24,7 @@ public class PlanetExplorer {
 			
 			if(obstacles.charAt(sizeOfString)==')'){
 				//System.out.println(obstacles.charAt(sizeOfString-3) + "," + obstacles.charAt(sizeOfString-1));
-				grid[5][7]=2;
-				System.out.println(grid[5][7]);
+				grid[obstacles.charAt(sizeOfString-3)][obstacles.charAt(sizeOfString-1)]=2;
 			}
 		}
 		
