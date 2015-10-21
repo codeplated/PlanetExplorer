@@ -35,3 +35,8 @@ EditAction 1445434029871 PlanetExplorer.java 2535 11 17 0
 UnitTestCaseAction 1445434032274 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1445434032274 TestPlanetExplorer FAIL
 EditAction 1445434059496 PlanetExplorer.java 2539 11 10 0
+CompilationAction 1445434059893 PlanetExplorer.java
+CompilationAction 1445434067575 PlanetExplorer.java
+RefactoringAction 1445434156957 PlanetExplorer.java ADD int FIELD
+RefactoringAction 1445434158983 PlanetExplorer.java RENAME setObstacles=>int METHOD
+EditAction 1445434190106 PlanetExplorer.java 2583 12 11 0

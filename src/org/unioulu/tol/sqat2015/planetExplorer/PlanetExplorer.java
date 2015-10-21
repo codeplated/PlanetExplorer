@@ -22,14 +22,7 @@ public class PlanetExplorer {
 		}
 		
 		obstacles = obstacles.replaceAll("\\D+","");
-		
-		for(int sizeOfString=0; sizeOfString<obstacles.length(); sizeOfString++){
-			int xx=obstacles.charAt('sizeOfString');
-			int yy=obstacles.charAt('sizeOfString');
-			grid[xx][yy]=2;
-			System.out.println(grid[xx][yy]+"  ,  "+ xx +"  ,  "+yy );
-			sizeOfString++;
-		}
+		gri
 		
 		
 			
@@ -41,6 +34,17 @@ public class PlanetExplorer {
 	 */
 	}
 	
+	private int[][] setObstacles(){
+	
+		for(int sizeOfString=0; sizeOfString<obstacles.length(); sizeOfString++){
+			int xx=obstacles.charAt(sizeOfString);
+			int yy=obstacles.charAt(sizeOfString);
+			grid[xx][yy]=2;
+			System.out.println(grid[xx][yy]+"  ,  "+ xx +"  ,  "+yy );
+			sizeOfString++;
+		}
+		
+	}
 	
 	public int[][] getGrid() {
 		return grid;
