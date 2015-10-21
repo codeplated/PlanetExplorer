@@ -13,9 +13,13 @@ public class PlanetExplorer {
 		this.x=x;
 		this.y=y;
 		this.obstacles=obstacles;
-		
-	
 		grid=new int[x][y];
+		
+		for(int i=0; i<x;i++){
+			for(int j=0; j<y;j++){
+				grid[i][j]=0;	
+			}
+		}
 		for(int sizeOfString=0; sizeOfString<=obstacles.length(); sizeOfString++){
 			
 			if(obstacles.charAt(sizeOfString)==')'){
@@ -25,13 +29,6 @@ public class PlanetExplorer {
 		}
 		
 		
-		for(int i=0; i<x;i++){
-			for(int j=0; j<y;j++){
-				if(grid[i][j]!=2){
-					grid[i][j]=0;
-				}
-			}
-		}
 			
 	/*	x and y represent the size of the grid.
 	 *  Obstacles is a String formatted as follows: "(obs1_x,obs1_y)(obs2_x,obs2_y)...(obsN_x,obsN_y)" with no white spaces. 
