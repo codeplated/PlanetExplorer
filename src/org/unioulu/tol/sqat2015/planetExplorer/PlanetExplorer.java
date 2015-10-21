@@ -25,7 +25,7 @@ public class PlanetExplorer {
 		System.out.println(obstacles.charAt(2));
 		for(int sizeOfString=0; sizeOfString<obstacles.length(); sizeOfString++){
 			
-			grid[obstacles[sizeOfString]][obstacles.charAt(sizeOfString)+1]=2;
+			grid[obstacles(sizeOfString)][obstacles(sizeOfString)+1]=2;
 			sizeOfString++;
 		}
 		

@@ -2,3 +2,7 @@ FileOpenedAction 1445433350920 PlanetExplorer.java 2485 11 18 0
 UnitTestCaseAction 1445433355151 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1445433355152 TestPlanetExplorer FAIL
 EditAction 1445433396998 PlanetExplorer.java 2478 11 18 0
+CompilationAction 1445433397239 PlanetExplorer.java
+CompilationAction 1445433405670 PlanetExplorer.java
+CompilationAction 1445433405835 PlanetExplorer.java
+EditAction 1445433412177 PlanetExplorer.java 2471 11 18 0
